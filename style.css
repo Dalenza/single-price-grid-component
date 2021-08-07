@@ -1,0 +1,60 @@
+/* base styles */
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family:"karla",sans-serif;
+    font-weight:700;
+    background-color:hsl(204, 43%, 93%);
+    color:hsl(218, 22%, 67%);
+    padding:40px 30px;
+}
+.container{
+    border:2px solid black;
+}
+.card{
+    border:2px solid red;
+    padding:1.75rem;
+}
+.card > *{
+    margin:10px 0;
+}
+
+.community{
+    background-color:white;
+}
+.community h2{
+    color:hsl(179, 62%, 43%);
+    font-size:20px;
+}
+.community h3{
+    color:hsl(71, 73%, 54%);
+}
+
+.subscription{
+    font-weight:400;
+    background-color:hsl(179, 62%, 43%);
+    color:white;
+}
+.subscription span{
+    font-size:35px;
+    font-weight:700;
+    margin-right:10px;
+}
+.btn{
+    padding:13px 0;
+    width:100%;
+    height:45px;
+    border-radius:5px;
+    background-color:hsl(71, 73%, 54%);
+    font-weight:700;
+    color:white;
+    text-align:center;
+}
+#signup-btn{
+    text-decoration:none;
+    color:white;
+}
